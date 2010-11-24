@@ -1,6 +1,10 @@
 = bio-kb-illumina
 
-Description goes here.
+Provide access to the IlluminaHumanAnnotations. Database comes form Bioconductor's package lumiHumanIDMapping.
+
+== TODO
+
+* Add all Illumina annotation, Human, Mouse, others?
 
 == Contributing to bio-kb-illumina
  

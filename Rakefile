@@ -15,9 +15,9 @@ Jeweler::Tasks.new do |gem|
   gem.name = "bio-kb-illumina"
   gem.homepage = "http://github.com/helios/bioruby-kb-illumina"
   gem.license = "MIT"
-  gem.summary = %Q{GeneExpression Illumina Annotation }
-  gem.description = %Q{Provide access to the Illumina Annotations. Database comes form Bioconductor's package
-     lumiHumanIDMapping. This release is Human centric.}
+  gem.summary = %Q{GeneExpression IlluminaHumanAnnotation }
+  gem.description = %Q{Provide access to the IlluminaHumanAnnotations. Database comes form Bioconductor's package
+     lumiHumanIDMapping}
   gem.email = "ilpuccio.febo@gmail.com"
   gem.authors = ["Raoul J.P. Bonnal"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
