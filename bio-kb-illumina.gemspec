@@ -10,7 +10,8 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Raoul J.P. Bonnal"]
   s.date = %q{2010-11-24}
-  s.description = %q{Proved access to the Illumina Annotation}
+  s.description = %q{Provide access to the IlluminaHumanAnnotations. Database comes form Bioconductor's package
+     lumiHumanIDMapping}
   s.email = %q{ilpuccio.febo@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -34,7 +35,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}
-  s.summary = %q{GeneExpression Illumina Annotation}
+  s.summary = %q{GeneExpression IlluminaHumanAnnotation}
   s.test_files = [
     "test/helper.rb",
     "test/test_bio-kb-illumina.rb"
