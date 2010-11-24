@@ -15,14 +15,16 @@ Jeweler::Tasks.new do |gem|
   gem.name = "bio-kb-illumina"
   gem.homepage = "http://github.com/helios/bioruby-kb-illumina"
   gem.license = "MIT"
-  gem.summary = %Q{Illumina Annotation}
-  gem.description = %Q{Illumina Annotation}
+  gem.summary = %Q{GeneExpression Illumina Annotation }
+  gem.description = %Q{Provide access to the Illumina Annotations. Database comes form Bioconductor's package
+     lumiHumanIDMapping. This release is Human centric.}
   gem.email = "ilpuccio.febo@gmail.com"
   gem.authors = ["Raoul J.P. Bonnal"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
   # and development dependencies are only needed for development (ie running rake tasks, tests, etc)
   #  gem.add_runtime_dependency 'jabber4r', '> 0.1'
   #  gem.add_development_dependency 'rspec', '> 1.2.3'
+  gem.version = "0.0.0"
 end
 Jeweler::RubygemsDotOrgTasks.new
 
