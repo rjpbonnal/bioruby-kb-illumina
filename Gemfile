@@ -3,6 +3,7 @@ source "http://rubygems.org"
 # Example:
 #   gem "activesupport", ">= 2.3.5"
 
+
 # Add dependencies to develop your gem here.
 # Include everything needed to run rake, tests, features, etc.
 group :development do
@@ -11,5 +12,5 @@ group :development do
   gem "jeweler", "~> 1.5.1"
   gem "rcov", ">= 0"
   gem "bio", ">= 1.4.1"
-  gem "activerecord"
+  gem "activerecord", ">= 3.0.3"
 end
