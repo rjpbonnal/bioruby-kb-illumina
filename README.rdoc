@@ -4,7 +4,7 @@ Provide access to the IlluminaHumanAnnotations. Database comes form Bioconductor
 
 == TODO
 
-* Add all Illumina's annotation, Human, Mouse, others?
+* Add all Illumina's annotation for Mouse and other species?
 
 == Contributing to bio-kb-illumina
  
