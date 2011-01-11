@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{bio-kb-illumina}
-  s.version = "0.0.0"
+  s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Raoul J.P. Bonnal"]
-  s.date = %q{2010-11-24}
+  s.date = %q{2011-01-11}
   s.description = %q{Provide access to the IlluminaHumanAnnotations. Database comes form Bioconductor's package
      lumiHumanIDMapping}
   s.email = %q{ilpuccio.febo@gmail.com}
@@ -26,8 +26,9 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "bio-kb-illumina.gemspec",
-    "data/lumiHumanIDMapping.sqlite",
+    "db/lumiHumanIDMapping.sqlite",
     "lib/bio-kb-illumina.rb",
+    "lib/bio/annotation/illumina/gene_expression.rb",
     "test/helper.rb",
     "test/test_bio-kb-illumina.rb"
   ]
@@ -51,14 +52,14 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<jeweler>, ["~> 1.5.1"])
       s.add_development_dependency(%q<rcov>, [">= 0"])
       s.add_development_dependency(%q<bio>, [">= 1.4.1"])
-      s.add_development_dependency(%q<activerecord>, [">= 0"])
+      s.add_development_dependency(%q<activerecord>, [">= 3.0.3"])
     else
       s.add_dependency(%q<shoulda>, [">= 0"])
       s.add_dependency(%q<bundler>, ["~> 1.0.0"])
       s.add_dependency(%q<jeweler>, ["~> 1.5.1"])
       s.add_dependency(%q<rcov>, [">= 0"])
       s.add_dependency(%q<bio>, [">= 1.4.1"])
-      s.add_dependency(%q<activerecord>, [">= 0"])
+      s.add_dependency(%q<activerecord>, [">= 3.0.3"])
     end
   else
     s.add_dependency(%q<shoulda>, [">= 0"])
@@ -66,7 +67,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<jeweler>, ["~> 1.5.1"])
     s.add_dependency(%q<rcov>, [">= 0"])
     s.add_dependency(%q<bio>, [">= 1.4.1"])
-    s.add_dependency(%q<activerecord>, [">= 0"])
+    s.add_dependency(%q<activerecord>, [">= 3.0.3"])
   end
 end
 
